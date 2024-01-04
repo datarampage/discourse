@@ -4,12 +4,12 @@
 \alias{discourse_auth}
 \title{discourse_auth}
 \usage{
-discourse_auth(account_id, api_name)
+discourse_auth(api_key, api_name)
 }
 \arguments{
-\item{api_name}{The Discourse account name}
-
 \item{api_key}{The API key}
+
+\item{api_name}{The Discourse account name}
 }
 \description{
 Authenticate your Discourse API account
