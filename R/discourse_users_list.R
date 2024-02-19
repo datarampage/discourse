@@ -40,8 +40,8 @@ discourse_users_list <- function(base_url) {
     query_params <- list(
       page = increment,
       order = "username",  # example of adding another query parameter
-      asc = "true"         # example of adding another query parameter
-
+      asc = "true",         # example of adding another query parameter
+      show_emails = "true"
     )
 
     response <- GET(url,query = query_params,headers)
